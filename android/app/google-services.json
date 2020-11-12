@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "366812810688",
+    "firebase_url": "https://funeralservice-791d9.firebaseio.com",
+    "project_id": "funeralservice-791d9",
+    "storage_bucket": "funeralservice-791d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366812810688:android:6a731d90bf2b88d308cc25",
+        "android_client_info": {
+          "package_name": "com.example.funeral_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366812810688-png3en6etv6hbvqedahqeat2kss5e7a7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFbyrQslqeqDEkJeCSxdAyyE6RBlqCi44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366812810688-png3en6etv6hbvqedahqeat2kss5e7a7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
