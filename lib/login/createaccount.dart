@@ -87,7 +87,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen>
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
-                              _title(),
+
 
 
 

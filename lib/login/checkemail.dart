@@ -31,7 +31,7 @@ class CheckEmail extends StatelessWidget {
   Widget _mailLogo(){
 
     return Container(
-      width: 150.0,
+      width: 250.0,
 
       child: Image.asset("images/mail_logo.png"),
     );
@@ -47,6 +47,7 @@ class CheckEmail extends StatelessWidget {
                 children: [
 
                       _textSignIn(),
+                      SizedBox(height: 50,),
                       _mailLogo(),
                   SizedBox(height: 150,),
                   Align( alignment: Alignment.bottomLeft,

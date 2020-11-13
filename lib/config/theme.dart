@@ -13,6 +13,7 @@ class AppThemeData{
 
  // Color colorPrimary = Color(0xff009688);
   Color colorPrimary = Color(0xff00bffe);
+ // Color colorPrimary = Colors.red;
   Color colorCompanion = Color(0xff374137);
   Color colorCompanion2 = Color(0xffffbb43);
   Color colorCompanion3 = Color(0xffb6e9d1);

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:funeral_connect/config/theme.dart';
 import 'package:funeral_connect/login/login.dart';
 import 'package:funeral_connect/start/splash.dart';
+import 'package:funeral_connect/ui/welcome.dart';
 
 AppThemeData theme = AppThemeData();
 void main() {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: _theme,
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }
