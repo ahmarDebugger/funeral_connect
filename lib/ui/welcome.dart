@@ -10,6 +10,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:funeral_connect/config/theme.dart';
 import 'package:funeral_connect/login/createaccount.dart';
 import 'package:funeral_connect/login/forgetpassword.dart';
+import 'package:funeral_connect/ui/mainscreen.dart';
 
 import 'package:progress_dialog/progress_dialog.dart';
 
@@ -113,11 +114,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                                   InkWell(
                                     onTap: ()
                                     {
-
+                                      Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) => MainScreen()));
                                       },
 
                                        child: Container(
-                                      width: 350,
+                                      width: 300,
                                       padding: EdgeInsets.symmetric(vertical: 13,),
                                       alignment: Alignment.center,
                                       decoration: BoxDecoration(color: theme.colorPrimary,
@@ -148,7 +152,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                                     },
 
                                     child: Container(
-                                      width: 350,
+                                      width: 300,
                                       padding: EdgeInsets.symmetric(vertical: 13,),
                                       alignment: Alignment.center,
                                       decoration: BoxDecoration(color: theme.colorPrimary,

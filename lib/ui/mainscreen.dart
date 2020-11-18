@@ -7,6 +7,8 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 import 'package:progress_dialog/progress_dialog.dart';
 
+import 'menu.dart';
+
 
 class MainScreen extends StatefulWidget {
   MainScreen({Key key, this.title}) : super(key: key);
@@ -32,6 +34,14 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      drawer: NavDrawer(),
+      appBar: AppBar(
+        title: Text('Funeral Connect'),
+      ),
+      body: Center(
+        child: Text('Guest Account'),
+      ),
+    );
   }
 }

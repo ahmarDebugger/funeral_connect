@@ -49,7 +49,7 @@ class CheckEmail extends StatelessWidget {
                       _textSignIn(),
                       SizedBox(height: 50,),
                       _mailLogo(),
-                  SizedBox(height: 150,),
+                  SizedBox(height: 10,),
                   Align( alignment: Alignment.bottomLeft,
                     child: Container(
                       child: Padding(padding: EdgeInsets.symmetric(horizontal: 20,vertical: 30),
