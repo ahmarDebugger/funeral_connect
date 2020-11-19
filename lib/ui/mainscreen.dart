@@ -4,11 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:funeral_connect/config/theme.dart';
 
 import 'package:progress_dialog/progress_dialog.dart';
 
 import 'menu.dart';
-
+AppThemeData theme = AppThemeData();
 
 class MainScreen extends StatefulWidget {
   MainScreen({Key key, this.title}) : super(key: key);
@@ -36,12 +37,112 @@ class _MainScreenState extends State<MainScreen> {
     // TODO: implement build
     return Scaffold(
       drawer: NavDrawer(),
-      appBar: AppBar(
+      appBar: AppBar(backgroundColor: theme.colorPrimary,
         title: Text('Funeral Connect'),
       ),
-      body: Center(
-        child: Text('Guest Account'),
+      body: GridView.count(
+
+        primary: false,
+        padding: const EdgeInsets.all(20),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        crossAxisCount: 3,
+        children: <Widget>[
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            child: const Text("Service Name"),
+            color: theme.colorPrimary,
+          ),
+
+        ],
+
       ),
     );
   }
+
 }
